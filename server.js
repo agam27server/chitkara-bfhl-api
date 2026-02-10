@@ -5,7 +5,7 @@ const { getAIAnswer } = require('./utils/aiService');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const OFFICIAL_EMAIL = process.env.OFFICIAL_EMAIL || 'your_email@chitkara.edu.in';
+const OFFICIAL_EMAIL = process.env.OFFICIAL_EMAIL || 'agam1512.be23@chitkara.edu.in';
 
 app.use(express.json());
 
